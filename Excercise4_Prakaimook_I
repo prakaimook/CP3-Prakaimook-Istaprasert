@@ -4,5 +4,5 @@ ICS = 100
 CP = 100
 print('Foundation English:', FE)
 print("General Business:", GB)
-print("Introduction to Computer Systems:",ICS)
-print("Computer Programming:",CP)
+print("Introduction to Computer Systems:", ICS)
+print("Computer Programming:", CP)
