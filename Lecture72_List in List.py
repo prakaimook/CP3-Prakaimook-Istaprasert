@@ -19,7 +19,7 @@ def showBill():
     totalPrice = 0
     for i in range(len(menuList)):
         menuTotal = menuList[i][1] * menuList[i][2]
-        print(menuList[i][0],menuList[i][1], "Baht each" , "Sub total" ,menuTotal,"Baht")
+        print(menuList[i][0],menuList[i][2]," @",menuList[i][1], "Baht each" , " = " ,menuTotal,"Baht")
         totalPrice = totalPrice + menuTotal
     print("Total", totalPrice, "บาท")
 
