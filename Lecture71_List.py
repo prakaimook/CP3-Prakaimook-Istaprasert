@@ -1,8 +1,9 @@
+#Declare list
 menuList = []
 priceList =[]
 amountList =[]
 
-
+#Loop for receive input info
 while True:
     menuName = input("Menu name : ")
     if(menuName.lower() == "total"):
@@ -13,6 +14,8 @@ while True:
         menuList.append(menuName)
         priceList.append(menuPrice)
         amountList.append(menuAmount)
+
+# Declare function showBill()
 def showBill():
     print("-------- My Shop ---------")
     totalPrice = 0
